@@ -11,5 +11,11 @@ public class HelloWorldActivity extends AppCompatActivity {
         setContentView(R.layout.activity_hello_world);
 
         //onCreate is called
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
     }
 }
